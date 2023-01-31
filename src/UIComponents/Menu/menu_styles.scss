@@ -1,0 +1,45 @@
+.des_menu {
+    position: absolute;
+    z-index: 20;
+}
+.des_menuList {
+    border: 1px solid #ddd;
+    background-color: #fff;
+    border-collapse: separate;
+    border-radius: 5px;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.15);
+    // box-shadow: 0 1px 8px 0 rgb(0 0 0 / 8%);
+    list-style: none;
+    margin: 0;
+    padding: 4px 2px;
+    position: relative;
+    width: 250px;
+    box-sizing: border-box;
+    line-height: normal;
+    color: #3b4468;
+}
+
+.des_menuItem {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    padding: 6px 8px;
+    line-height: 24px;
+    text-decoration-line: none;
+    outline-width: 0px;
+    &:hover {
+        background-color: #f3f3f3;
+        cursor: pointer;
+    }
+}
+
+.des_menuItemIcon {
+    color: grey;
+    height: 24px;
+    width: 24px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+}

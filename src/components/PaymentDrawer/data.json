@@ -1,0 +1,146 @@
+{
+    "data": [
+        {
+            "id": "acceptPayment",
+            "type": "currencyLink",
+            "label": "Accept Payment",
+            "data": "0.00",
+            "path": "/accept_payment",
+            "state": { "status": "pending" }
+        },
+        {
+            "id": "invoiceBalance",
+            "type": "currencyLink",
+            "label": "Invoice Balance",
+            "data": "0.00",
+            "path": "/invoice",
+            "state": { "status": "pending" }
+        },
+        {
+            "id": "unpostedCredits",
+            "type": "currencyLink",
+            "label": "Unposted Credits",
+            "data": "0.00",
+            "path": "/unposted_credits"
+        },
+        {
+            "id": "cart",
+            "type": "currencyLink",
+            "label": "Cart",
+            "data": "0.00",
+            "path": "/cart"
+        },
+        {
+            "id": "estimates",
+            "type": "link",
+            "label": "Estimates",
+            "data": "View",
+            "path": "/estimate"
+        },
+        {
+            "id": "pastInvoice",
+            "type": "link",
+            "label": "Past Invoice",
+            "data": "View",
+            "path": "/past_invoice"
+        },
+        {
+            "id": "accountByDate",
+            "type": "link",
+            "label": "Account By Date",
+            "data": "View",
+            "path": "/account_by_date"
+        },
+        {
+            "id": "paymentHistory",
+            "type": "link",
+            "label": "Payment History",
+            "data": "View",
+            "path": "/payment_history"
+        },
+        {
+            "id": "addCredit",
+            "type": "link",
+            "label": "Add Credit",
+            "data": "View",
+            "path": "/add_credit"
+        },
+        {
+            "id": "addDebit",
+            "type": "link",
+            "label": "Add Debit",
+            "data": "View",
+            "path": "/add_debit"
+        },
+        {
+            "id": "statements",
+            "type": "export",
+            "label": "Statements",
+            "data": [
+                {
+                    "id": "print1",
+                    "label": "Print",
+                    "icon": "printer",
+                    "link": "/statements/print"
+                },
+                { "id": "mail1", "label": "Mail", "icon": "mail" },
+                {
+                    "id": "pdf1",
+                    "label": "PDF",
+                    "icon": "pdf",
+                    "link": "/statements/pdf"
+                }
+            ],
+            "path": "/route"
+        },
+        {
+            "id": "summary",
+            "type": "export",
+            "label": "Summary",
+            "data": [
+                {
+                    "id": "print2",
+                    "label": "Print",
+                    "icon": "printer",
+                    "link": "/summary/print"
+                },
+                { "id": "mail2", "label": "Mail", "icon": "mail" },
+                {
+                    "id": "pdf2",
+                    "label": "PDF",
+                    "icon": "pdf",
+                    "link": "/summary/print"
+                }
+            ],
+            "path": "/route"
+        },
+        {
+            "id": "detailed",
+            "type": "export",
+            "label": "Detailed",
+            "data": [
+                {
+                    "id": "print3",
+                    "label": "Print",
+                    "icon": "printer",
+                    "link": "/detailed/print"
+                },
+                { "id": "mail3", "label": "Mail", "icon": "mail" },
+                {
+                    "id": "pdf3",
+                    "label": "PDF",
+                    "icon": "pdf",
+                    "link": "/detailed/pdf"
+                }
+            ],
+            "path": "/route"
+        },
+        {
+            "id": "statementArchive",
+            "type": "link",
+            "label": "Statement Archive",
+            "data": "View",
+            "path": "/statement_archieve"
+        }
+    ]
+}

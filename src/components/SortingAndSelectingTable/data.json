@@ -1,0 +1,8 @@
+{
+    "dialogLabels": {
+        "title": "Are you sure?",
+        "desc": "You want to delete the results!",
+        "cancel": "No, Thanks!",
+        "confirm": "Yes, delete it!"
+    }
+}

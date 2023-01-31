@@ -1,0 +1,40 @@
+{
+    "title": "Modify Schedule",
+    "actionButtonLabels": {
+        "modify": "Modify"
+    },
+    "fieldDetails": {
+        "clinicSchedule": {
+            "key": "clinicSchedule",
+            "label": "Clinic Schedule for",
+            "helperText": "This field is required",
+            "pastDisabled": "",
+            "addToMaster": ""
+        },
+        "userSchedule": {
+            "key": "userSchedule",
+            "label": "User Schedule for",
+            "helperText": "This field is required",
+            "pastDisabled": "",
+            "addToMaster": ""
+        },
+        "workingDays": {
+            "key": "workingDays",
+            "label": "Working Days",
+            "helperText": "This field is required",
+            "pastDisabled": "",
+            "addToMaster": ""
+        }
+    },
+    "fieldData": {
+        "workingDays": [
+            { "title": "Mon", "id": "mon" },
+            { "title": "Tue", "id": "tue" },
+            { "title": "Wed", "id": "wed" },
+            { "title": "Thu", "id": "thu" },
+            { "title": "Fri", "id": "fri" },
+            { "title": "Sat", "id": "sat" },
+            { "title": "Sun", "id": "sun" }
+        ]
+    }
+}

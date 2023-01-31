@@ -1,0 +1,181 @@
+{
+    "title": "Add Appointment",
+    "actionButtonLabels": {
+        "addClient": "Add Client",
+        "quickAddClient": "Quick Add Client",
+        "save": "Save",
+        "cancel": "Cancel"
+    },
+    "fieldDetails": {
+        "searchClientPatient": {
+            "key": "searchClientPatient",
+            "label": "Search Client/Patient",
+            "helperText": "This field is required",
+            "pastDisabled": "",
+            "addToMaster": ""
+        },
+        "appointmentType": {
+            "key": "appointmentType",
+            "label": "Appointment Type",
+            "helperText": "",
+            "pastDisabled": "",
+            "addToMaster": ""
+        },
+        "reasonForVisit": {
+            "key": "reasonForVisit",
+            "label": "Reason for visit",
+            "helperText": "",
+            "pastDisabled": "",
+            "addToMaster": "Add Reason for Visit"
+        },
+        "additionalComments": {
+            "key": "additionalComments",
+            "label": "Additional Comments",
+            "helperText": "",
+            "pastDisabled": "",
+            "addToMaster": ""
+        },
+        "selectStaffs": {
+            "key": "selectStaffs",
+            "label": "Select Staffs",
+            "helperText": "This field is required",
+            "pastDisabled": "",
+            "addToMaster": ""
+        },
+        "selectEquipmentsRooms": {
+            "key": "selectEquipmentsRooms",
+            "label": "Select Equipment/Room",
+            "helperText": "",
+            "pastDisabled": "",
+            "addToMaster": ""
+        },
+        "startTime": {
+            "key": "startTime",
+            "label": "Start Time",
+            "helperText": "This field is required",
+            "pastDisabled": "",
+            "addToMaster": "",
+            "dateFormat": "MM/DD/YYYY",
+            "timeFormat": "HH:MM (A|P)M"
+        },
+        "endTime": {
+            "key": "endTime",
+            "label": "End Time",
+            "helperText": "This field is required",
+            "pastDisabled": "",
+            "addToMaster": "",
+            "dateFormat": "MM/DD/YYYY",
+            "timeFormat": "HH:MM (A|P)M"
+        },
+        "dropOff": {
+            "key": "dropOff",
+            "label": "Drop Off Date/Time",
+            "helperText": "",
+            "pastDisabled": "Only valid for future appointments",
+            "addToMaster": ""
+        },
+        "dropOffDateTime": {
+            "key": "dropOffDateTime",
+            "label": "",
+            "helperText": "",
+            "pastDisabled": "",
+            "addToMaster": "",
+            "dateFormat": "MM/DD/YYYY",
+            "timeFormat": ""
+        },
+        "recurringAppointment": {
+            "key": "recurringAppointment",
+            "label": "Recurring Appointment",
+            "helperText": "",
+            "pastDisabled": "",
+            "addToMaster": ""
+        },
+        "recurrenceInterval": {
+            "key": "recurrenceInterval",
+            "label": "",
+            "helperText": "",
+            "pastDisabled": "",
+            "addToMaster": ""
+        },
+        "occurance": {
+            "key": "occurance",
+            "label": "Occurance",
+            "helperText": "",
+            "pastDisabled": "",
+            "addToMaster": ""
+        },
+        "emailToClient": {
+            "key": "emailToClient",
+            "label": "Email To Client",
+            "helperText": "",
+            "pastDisabled": "",
+            "addToMaster": ""
+        },
+        "smsToClient": {
+            "key": "smsToClient",
+            "label": "SMS To Client",
+            "helperText": "",
+            "pastDisabled": "",
+            "addToMaster": ""
+        },
+        "clientRequirements": {
+            "key": "clientRequirements",
+            "label": "Client Requirements",
+            "helperText": "",
+            "pastDisabled": "",
+            "addToMaster": ""
+        }
+    },
+    "fieldData": {
+        "appointmentType": [
+            { "title": "Check Up", "id": "checkUp" },
+            { "title": "Outpatient", "id": "outpatient" },
+            { "title": "Heart Specialist", "id": "heartSpecialist" },
+            { "title": "Skin Specialist", "id": "skinSpecialist" },
+            { "title": "Routine Checkup", "id": "routineCheckup" }
+        ],
+        "reasonForVisit": [
+            { "title": "Check Up", "id": "checkUp" },
+            { "title": "Chewing at Tail", "id": "chewingAtTail" },
+            { "title": "Choking", "id": "choking" },
+            { "title": "Eye Discharge", "id": "eyeDischarge" }
+        ],
+        "selectStaffs": [
+            { "title": "Akon Grey", "id": "akonGrey" },
+            { "title": "Allison Argent", "id": "allisonArgent" },
+            { "title": "Ella Lopez", "id": "ellaLopez" },
+            { "title": "Linda Martin", "id": "lindaMartin" }
+        ],
+        "selectEquipmentsRooms": [
+            { "title": "Test Equipment", "id": "testEquipment" },
+            { "title": "Monitor", "id": "monitor" }
+        ],
+        "recurrenceInterval": [
+            { "title": "Month", "id": "month" },
+            { "title": "Week", "id": "week" },
+            { "title": "Day", "id": "day" }
+        ],
+        "occurrance": [
+            { "title": "1", "id": "1" },
+            { "title": "2", "id": "2" },
+            { "title": "3", "id": "3" },
+            { "title": "4", "id": "4" },
+            { "title": "5", "id": "5" },
+            { "title": "6", "id": "6" },
+            { "title": "7", "id": "7" },
+            { "title": "8", "id": "8" },
+            { "title": "9", "id": "9" },
+            { "title": "10", "id": "10" },
+            { "title": "11", "id": "11" },
+            { "title": "12", "id": "12" },
+            { "title": "13", "id": "13" },
+            { "title": "14", "id": "14" },
+            { "title": "15", "id": "15" },
+            { "title": "16", "id": "16" },
+            { "title": "17", "id": "17" },
+            { "title": "18", "id": "18" },
+            { "title": "19", "id": "19" },
+            { "title": "20", "id": "20" }
+        ]
+    }
+}

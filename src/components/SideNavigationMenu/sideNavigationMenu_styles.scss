@@ -1,0 +1,14 @@
+.sideNavigationMenu {
+    .menu {
+        font-size: 15px;
+        color: #3b4468;
+        margin-right: -5px;
+        padding-right: 5px;
+        height: calc(100vh - 220px);
+        .selected {
+            .icon {
+                color: #5157d4;
+            }
+        }
+    }
+}

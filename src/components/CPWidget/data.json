@@ -1,0 +1,135 @@
+{
+    "title": "Change Provider",
+    "actionLabels": {
+        "save": "SAVE",
+        "close": "CLOSE",
+        "successMsg": "Provider assigned successfully"
+    },
+    "fieldDetails": {
+        "provider": {
+            "key": "provider",
+            "label": "Provider",
+            "helperText": "This field is required",
+            "pastDisabled": "",
+            "addToMaster": ""
+        },
+
+        "showInactive": {
+            "key": "showInactive",
+            "label": "Show Inactive/Deceased Patient(S)"
+        }
+    },
+    "client": {
+        "_id": 61,
+        "name": "Lucifer Morningstar",
+        "phoneNumber": {
+            "allowSms": true,
+            "type": "Home",
+            "number": "000-000-0000"
+        },
+        "email": "lucifer.morningstar@gmail.com",
+        "cartItemCount": 1,
+        "balance": {
+            "currency": "$",
+            "amount": -100
+        },
+        "alert": null
+    },
+    "patient": {
+        "_id": 17630,
+        "name": "Pepper",
+        "species": "Canine (Dog)",
+        "breed": "Indian Pariah Dog",
+        "sex": "Female",
+        "dobAge": "18 Apr 2021 (1 Yr - 1 Mo)",
+        "weight": "22.05 lb (10.00 kg)",
+        "alert": null,
+        "isProvider": true,
+        "provider": "Ella Lopez",
+        "encounter": "Patient Health Record"
+    },
+    "encounters": [
+        {
+            "title": "Complaint",
+            "path": "/complaint",
+            "state": null,
+            "isModalBox": false
+        },
+        {
+            "title": "History",
+            "path": "/history",
+            "state": null,
+            "isModalBox": false
+        },
+        {
+            "title": "Exam",
+            "path": "/exam",
+            "state": null,
+            "isModalBox": false
+        },
+        {
+            "title": "Assess",
+            "path": "/assessment",
+            "state": null,
+            "isModalBox": false
+        },
+        {
+            "title": "Plan",
+            "path": "/plan",
+            "state": null,
+            "isModalBox": false
+        },
+        {
+            "title": "SOAP Note",
+            "path": "/soap_notes",
+            "state": null,
+            "isModalBox": false
+        },
+        {
+            "title": "Authorization/Attachments",
+            "path": "/authorization",
+            "state": {
+                "tabIndex": "0"
+            },
+            "isModalBox": false
+        },
+        {
+            "title": "Memo",
+            "path": "/memo",
+            "state": null,
+            "isModalBox": false
+        },
+        {
+            "title": "+Rx",
+            "path": "/rx_page",
+            "state": {
+                "tabIndex": "0"
+            },
+            "isModalBox": false
+        },
+        {
+            "title": "Lab",
+            "path": "/lab_page",
+            "state": null,
+            "isModalBox": false
+        },
+        {
+            "title": "Reminders",
+            "path": "/reminders",
+            "state": null,
+            "isModalBox": false
+        },
+        {
+            "title": "Certificates",
+            "path": "/certificates",
+            "state": null,
+            "isModalBox": false
+        },
+        {
+            "title": "Print EMR",
+            "path": "/print_emr",
+            "state": null,
+            "isModalBox": false
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+.signature_pad {
+    cursor: crosshair;
+    width: 200px;
+    height: 140px;
+    touch-action: none;
+    border-radius: 4px;
+    touch-action: none;
+    border: 1px solid #e1e6ea;
+    box-shadow: 0px 4px 10px rgb(0 0 0 / 5%);
+    @include mq(400px) {
+        width: 236px;
+    }
+}

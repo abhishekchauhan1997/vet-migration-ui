@@ -1,0 +1,65 @@
+@import "./TimeScale/timeScale_styles.scss";
+
+.timeScale-view {
+    display: flex;
+    font-size: 12px;
+    min-height: 100%;
+    font-weight: 600;
+    overflow-x: auto;
+    color: rgba(0, 0, 0, 0.66);
+    .calendar-content {
+        flex-grow: 1;
+        .calendar-content__table {
+            height: 100%;
+            border-top: 1px solid #e0e0e0;
+            border-right: 1px solid #e0e0e0;
+        }
+        .calendar-content__header .calendar-content__cell {
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .calendar-content__cell:not(:first-child) {
+            border-left: 1px solid #e0e0e0;
+        }
+
+        .calendar-content__body .calendar-content__cell {
+            min-height: 200px;
+            position: relative;
+            background-image: url(../assets/databg.png);
+        }
+    }
+    .timeScale {
+        left: 0;
+        z-index: 1;
+        position: sticky;
+        padding-top: 27px;
+        background-color: #fff;
+        border: 1px solid #e0e0e0;
+        border-bottom: 0;
+        .hour-tick {
+            &:before,
+            &:last-child::after {
+                left: 0;
+                content: "";
+                width: 100%;
+                position: absolute;
+            }
+            &:first-child::before {
+                top: -0.5px;
+                border-top: 1px solid #e0e0e0;
+            }
+            &:not(:first-child)::before,
+            &:last-child::after {
+                background-position: 0 2px;
+                background-image: url(../assets/databg.png);
+            }
+            &:not(:first-child)::before {
+                top: -2px;
+                height: 3px;
+            }
+            &:last-child::after {
+                bottom: 0;
+                height: 2px;
+            }
+        }
+    }
+}

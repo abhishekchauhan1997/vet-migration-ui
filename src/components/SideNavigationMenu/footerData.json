@@ -1,0 +1,58 @@
+[
+    {
+        "title": "Vetport help centre",
+        "routerLink": "",
+        "items": [
+            {
+                "title": "Video help and training files",
+                "routerLink": "/home/video_help",
+                "items": []
+            },
+            {
+                "title": "Knowledge base",
+                "routerLink": "https://pronghornhelp.vetport.com/portal/",
+                "items": []
+            },
+            {
+                "title": "Submit a ticket",
+                "routerLink": "submit_ticket",
+                "items": []
+            },
+            {
+                "title": "Team Support/Training",
+                "routerLink": "https://get.teamviewer.com/5tszmxh",
+                "items": []
+            },
+            {
+                "title": "Teamview conversation/integrations",
+                "routerLink": "https://get.teamviewer.com/c4pywap",
+                "items": []
+            },
+            {
+                "title": "Help & support",
+                "routerLink": "/home/support_veton",
+                "items": []
+            }
+        ]
+    },
+    {
+        "title": "Terms of service",
+        "routerLink": "https://www.vetport.com/terms-of-service",
+        "items": []
+    },
+    {
+        "title": "Privacy Policy",
+        "routerLink": "https://www.vetport.com/privacy-policy",
+        "items": []
+    },
+    {
+        "title": "Sales Policy",
+        "routerLink": "https://www.vetport.com/sales-policy",
+        "items": []
+    },
+    {
+        "title": " Licence Acknowledgement",
+        "routerLink": "https://www.vetport.com/open-source-license-acknowledgement",
+        "items": []
+    }
+]

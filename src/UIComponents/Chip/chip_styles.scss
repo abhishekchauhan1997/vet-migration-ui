@@ -1,0 +1,12 @@
+.des_chip {
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 0.8125rem;
+    display: inline-block;
+    line-height: 0.8125rem;
+    &.fluid {
+        display: block;
+    }
+}

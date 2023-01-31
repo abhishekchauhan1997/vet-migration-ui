@@ -1,0 +1,27 @@
+{
+    "title": "Znlabs Species Mapping",
+    "actionButtonLabels": {
+        "save": "Save",
+        "close": "Close"
+    },
+    "fieldDetails": {
+        "species": {
+            "key": "species",
+            "label": "Species",
+            "helperText": "This field is required",
+            "pastDisabled": "",
+            "addToMaster": ""
+        }
+    },
+    "fieldData": {
+        "species": [
+            { "title": "Cervidae (Deer)", "id": "cervidae" },
+            { "title": "Procyon (Raccoon)", "id": "procyon" },
+            { "title": "Ursidae (Bear)", "id": "ursidae" },
+            { "title": "Swine", "id": "swine" },
+            { "title": "Shunk", "id": "shunk" },
+            { "title": "Avian", "id": "avianBird" },
+            { "title": "Bovine", "id": "bovineCow" }
+        ]
+    }
+}

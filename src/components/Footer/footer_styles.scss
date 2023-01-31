@@ -1,0 +1,32 @@
+.footer {
+    bottom: 0;
+    z-index: 5;
+    width: 100%;
+    position: fixed;
+    padding: 10px 8px;
+    @include mq(360px) {
+        padding: 10px 25px;
+    }
+    @include mq(425px) {
+        padding: 10px 40px;
+    }
+    background-color: #fff;
+    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #485276;
+}
+
+.footer_vetport_logo {
+    width: 20px;
+    height: 20px;
+    background: url(../../../public/vetport-icon-192x192.png);
+    object-fit: contain;
+    background-size: contain;
+    margin-left: 5px;
+}

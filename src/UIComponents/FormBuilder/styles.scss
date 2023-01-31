@@ -1,0 +1,82 @@
+// @import "bootstrap/dist/css/bootstrap.min.css";
+// @import "@fortawesome/fontawesome-free/css/all.min.css";
+
+// .form-builder {
+//     @import "bootstrap/scss/bootstrap.scss";
+// }
+
+.form-builder .react-form-builder {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+
+    & > div {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .react-form-builder-preview {
+        padding: 25px 20px;
+        flex: 0 0 79%;
+        max-width: 79%;
+        min-height: initial;
+        max-height: calc(100vh - 240px);
+        overflow: auto;
+        border-radius: 3px;
+        box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
+            0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+
+        .Sortable .SortableItem {
+            position: relative;
+            border: none !important;
+            margin-bottom: 0.8em !important;
+            padding: 0.5rem 1rem;
+            background-color: white;
+            cursor: pointer;
+            transition: 0.1s ease-in-out;
+            opacity: 1;
+
+            .toolbar-header .badge {
+                color: white;
+                background-color: #6a91fc;
+            }
+
+            .form-group .form-label .label-required {
+                top: 23px;
+                right: 20px;
+                position: absolute;
+            }
+        }
+
+        .Sortable .SortableItem:hover .form-group .label-required {
+            right: 170px;
+        }
+
+        .form-place-holder-hidden {
+            min-height: 400px;
+        }
+    }
+
+    .react-form-builder-toolbar {
+        flex: 0 0 20%;
+        max-width: 20%;
+        max-height: calc(100vh - 240px);
+        margin-top: 0;
+        padding: 10px;
+        overflow: auto;
+        background: linear-gradient(85.97deg, #6e8dfb 0%, #52a3ff 100%);
+        box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
+            0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+        color: #f9f9f9;
+        border-radius: 3px;
+
+        h4 {
+            display: none;
+        }
+
+        ul li {
+            border: 2px solid white;
+            border-radius: 2px;
+            margin: 15px 10px;
+        }
+    }
+}

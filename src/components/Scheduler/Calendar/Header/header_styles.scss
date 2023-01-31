@@ -1,0 +1,18 @@
+.calendar-header {
+    display: flex;
+    .calendar-header__leftContent {
+        justify-content: flex-start;
+        & > *:not(:last-child) {
+            margin-right: 15px;
+        }
+    }
+    .calendar-header__centerContent {
+        justify-content: center;
+    }
+    .calendar-header__rightContent {
+        flex-grow: 1;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+}

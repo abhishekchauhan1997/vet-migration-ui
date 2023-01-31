@@ -1,0 +1,37 @@
+{
+    "title": "Send Sms",
+    "dialogLabels": {
+        "save": "SAVE",
+        "close": "CLOSE",
+        "send": "Send",
+        "successMsg": "Message send successfully"
+    },
+    "fieldDetails": {
+        "patients": {
+            "key": "patients",
+            "label": "Select Patient",
+            "helperText": "This field is required",
+            "pastDisabled": "",
+            "addToMaster": ""
+        },
+        "encounter": {
+            "key": "encounter",
+            "label": "Select Encounter",
+            "helperText": "This field is required",
+            "pastDisabled": "",
+            "addToMaster": ""
+        },
+        "messages": {
+            "key": "messages",
+            "label": "Message",
+            "helperText": "This field is required",
+            "pastDisabled": "",
+            "addToMaster": ""
+        },
+
+        "recordToEnc": {
+            "key": "recordToEnc",
+            "label": "Record To Encounter"
+        }
+    }
+}

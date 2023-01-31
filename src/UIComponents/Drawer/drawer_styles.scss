@@ -1,0 +1,7 @@
+.des_drawer {
+    display: flex;
+    flex-direction: column;
+    .des_drawerBody {
+        flex-grow: 1;
+    }
+}

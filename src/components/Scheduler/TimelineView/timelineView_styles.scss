@@ -1,0 +1,55 @@
+.timelineView {
+    overflow-x: auto;
+    .calendar-content__table {
+        table-layout: auto;
+        .calendar-content__row {
+            &:first-child .calendar-content__cell {
+                border-top: 1px solid #e0e0e0;
+            }
+        }
+        .calendar-content__cell {
+            border-right: 1px solid #e0e0e0;
+            &:first-child {
+                left: 0;
+                z-index: 1;
+                position: sticky;
+                background: #fff;
+                border-left: 1px solid #e0e0e0;
+            }
+        }
+        .calendar-content__body {
+            .calendar-content__row {
+                .calendar-content__cell {
+                    border-bottom: 1px solid #e0e0e0;
+                    &:first-child {
+                        &:first-child {
+                            min-width: 100px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .staff-events {
+        font-size: 12px;
+        position: relative;
+    }
+    .timelineBody-container {
+        vertical-align: top;
+        .timelineBody {
+            min-height: 50px;
+            .calendar-event {
+                z-index: 1;
+            }
+        }
+    }
+    .staffName {
+        font-size: 14px;
+        font-weight: 600;
+        overflow: hidden;
+        line-height: 16px;
+        white-space: nowrap;
+        padding-inline: 20px;
+        text-overflow: ellipsis;
+    }
+}

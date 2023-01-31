@@ -1,0 +1,189 @@
+// @import "../../styles/mixin.scss";
+
+.header {
+    padding: 5px 10px;
+    background-color: #fff;
+    height: $header_mobile_height;
+    @include md() {
+        padding: 5px 20px;
+        height: $header_tab_height;
+    }
+    @include xl() {
+        height: $header_desktop_height;
+    }
+    #lg_screen_navbar {
+        display: none;
+        @include xl() {
+            margin: auto;
+            display: flex;
+            align-items: center;
+        }
+    }
+    #sm_screen_navbar {
+        // display: flex;
+        // align-items: center;
+        overflow: auto;
+        @include xl() {
+            display: none;
+        }
+        #sm_navlinks {
+            display: none;
+            @include md() {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+        }
+        #sm_screen_menbar {
+            display: flex;
+            width: 24px;
+            height: 24px;
+            @include md() {
+                display: none;
+            }
+        }
+    }
+    #search_bar {
+        margin-left: 5px;
+        display: none;
+        @include md() {
+            display: flex;
+        }
+        @include lg() {
+            margin-left: 0;
+        }
+    }
+    #res_search_bar {
+        width: 90%;
+        display: flex;
+        @include md() {
+            display: none;
+        }
+    }
+
+    #logo_typo {
+        display: block;
+        // margin: auto;
+        // @include mq(360px) {
+        //     margin: auto auto auto 10px;
+        // }
+        @include mq(490px) {
+            display: flex;
+        }
+        // @include xl() {
+        //     margin-inline: 10px;
+        // }
+        .typo {
+            font-size: 15px;
+            @include mq(490px) {
+                font-size: 1.25rem;
+                margin-bottom: 0px;
+            }
+        }
+        .clock {
+            font-size: 12px;
+            // &:hover {
+            //     text-decoration: underline;
+            // }
+            @include mq(490px) {
+                margin-left: 10px;
+                font-size: 14px;
+            }
+        }
+    }
+    .actions_group_header {
+        margin-left: 0px;
+        @include mq(360px) {
+            margin-left: 5px;
+        }
+        .notify_icon {
+            margin-right: 0px;
+            @include mq(360px) {
+                margin-right: 5px;
+            }
+        }
+    }
+    .res_nav {
+        width: 100%;
+        margin-top: 5px;
+        // padding: 0px;
+        justify-content: space-between;
+        @include mq(490px) {
+            // padding: 0px 12px;
+        }
+    }
+    .rightContentContainer {
+        flex-grow: 1;
+        @include xl() {
+            flex-grow: unset;
+        }
+    }
+}
+
+// .typo_logo:hover {
+//     text-decoration: underline;
+// }
+
+.profile_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(50.79deg, #6e8dfb 0%, #52a3ff 100%);
+    color: white;
+    border-right: 1px solid #6e8dfb;
+    padding: 2px;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    text-transform: uppercase;
+    height: 100%;
+}
+
+.border {
+    border-radius: 3px;
+    border: 1px solid #dadff1 !important;
+}
+
+.logout_icon {
+    height: 30px;
+    color: #ff4500 !important;
+}
+
+#navs-menu {
+    inset: 0px 0px auto auto !important;
+    transform: translate3d(34px, 38px, 0px);
+}
+
+// .list_item_padd {
+//     // padding: 0px !important;
+//     // &:not(:first-child):not(:last-child) {
+//     //     padding-inline: 13px !important;
+//     // }
+// }
+
+.badge_bg {
+    background-color: linear-gradient(
+        39.81deg,
+        #ff4500 26.89%,
+        #ff7846 73.11%
+    ) !important;
+    border: 2px solid #ffffff !important;
+}
+
+.des_drawer {
+    width: 100%;
+    @include sm() {
+        width: 348px;
+    }
+}
+.datetime_val {
+    margin-bottom: -4px;
+}
+
+.menulist_position {
+    inset: 36px -28px auto auto;
+}
+
+#sm_screen_navbar::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}

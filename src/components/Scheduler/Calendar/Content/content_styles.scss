@@ -1,0 +1,25 @@
+.calendar-content__table {
+    width: 100%;
+    border-spacing: 0;
+    table-layout: fixed;
+    .calendar-content__header {
+        .calendar-content__cell {
+            width: 85px;
+            height: 27px;
+            padding: 5px;
+            cursor: default;
+            font-size: 14px;
+            font-weight: 600;
+            overflow: hidden;
+            line-height: 16px;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            color: rgba(0, 0, 0, 0.66);
+        }
+        .calendar-content__body {
+            .calendar-content__cell {
+                position: relative;
+            }
+        }
+    }
+}

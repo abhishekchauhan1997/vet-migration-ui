@@ -1,0 +1,487 @@
+[
+    {
+        "id": 7,
+        "staffId": 251,
+        "startDate": "Wed Jun 27 2022 08:30:00 GMT+0530 (India Standard Time)",
+        "endDate": "Wed Jun 30 2022 08:50:00 GMT+0530 (India Standard Time)",
+        "status": "completing",
+        "statusColor": "#a10e71",
+        "typeColor": "#1796b0",
+        "readOnly": false,
+        "tooltip": {
+            "client": {
+                "id": 47713,
+                "name": "Abhishek Yadav",
+                "phone": "890-567-1234"
+            },
+            "patient": {
+                "id": 24916,
+                "name": "Rocky",
+                "species": "Canine (Dog)",
+                "breed": "Indian Pariah Dog",
+                "sex": "Female",
+                "dobAge": "1 Yr - 1 Mo"
+            },
+            "appointment": {
+                "createdBy": "Peggy Bartl",
+                "createdOn": "02 Jun 2022 11:30 AM",
+                "appointmentType": "Check Up",
+                "reason": "ECG",
+                "additionalComments": "ECG",
+                "assignedTo": "Ella Lopez",
+                "note": "Quae commodi eveniet",
+                "equipmentsRooms": "monitor",
+                "startDate": "27 Jun 2022 01:20 PM",
+                "endDate": "30 Jun 2022 01:40 PM"
+            }
+        }
+    },
+    {
+        "id": 7,
+        "staffId": 251,
+        "startDate": "Thu Jun 30 2022 08:30:00 GMT+0530 (India Standard Time)",
+        "endDate": "Thu Jun 30 2022 08:50:00 GMT+0530 (India Standard Time)",
+        "status": "completing",
+        "statusColor": "#a10e71",
+        "typeColor": "#1796b0",
+        "readOnly": false,
+        "tooltip": {
+            "client": {
+                "id": 47713,
+                "name": "Abhishek Yadav",
+                "phone": "890-567-1234"
+            },
+            "patient": {
+                "id": 24916,
+                "name": "Rocky",
+                "species": "Canine (Dog)",
+                "breed": "Indian Pariah Dog",
+                "sex": "Female",
+                "dobAge": "1 Yr - 1 Mo"
+            },
+            "appointment": {
+                "createdBy": "Peggy Bartl",
+                "createdOn": "02 Jun 2022 11:30 AM",
+                "appointmentType": "Check Up",
+                "reason": "ECG",
+                "additionalComments": "ECG",
+                "assignedTo": "Ella Lopez",
+                "note": "Quae commodi eveniet",
+                "equipmentsRooms": "monitor",
+                "startDate": "30 Jun 2022 01:20 PM",
+                "endDate": "30 Jun 2022 01:40 PM"
+            }
+        }
+    },
+    {
+        "id": 4,
+        "staffId": 252,
+        "startDate": "Thu Jun 30 2022 11:00:00 GMT+0530 (India Standard Time)",
+        "endDate": "Thu Jul 01 2022 11:20:00 GMT+0530 (India Standard Time)",
+        "status": "completing",
+        "statusColor": "#a10e71",
+        "typeColor": "#1796b0",
+        "readOnly": false,
+        "tooltip": {
+            "client": {
+                "id": 47713,
+                "name": "Abhishek Yadav",
+                "phone": "890-567-1234"
+            },
+            "patient": {
+                "id": 24916,
+                "name": "Rocky",
+                "species": "Canine (Dog)",
+                "breed": "Indian Pariah Dog",
+                "sex": "Female",
+                "dobAge": "1 Yr - 1 Mo"
+            },
+            "appointment": {
+                "createdBy": "Peggy Bartl",
+                "createdOn": "02 Jun 2022 11:30 AM",
+                "appointmentType": "Check Up",
+                "reason": "ECG",
+                "additionalComments": "ECG",
+                "assignedTo": "Ella Lopez",
+                "note": "Quae commodi eveniet",
+                "equipmentsRooms": "monitor",
+                "startDate": "30 Jun 2022 01:20 PM",
+                "endDate": "01 Jul 2022 01:40 PM"
+            }
+        }
+    },
+    {
+        "id": 1,
+        "staffId": 250,
+        "startDate": "Thu Jun 30 2022 11:20:00 GMT+0530 (India Standard Time)",
+        "endDate": "Thu Jul 01 2022 11:40:00 GMT+0530 (India Standard Time)",
+        "status": "Check Out",
+        "statusColor": "#e1d40f",
+        "type": "Heart specialist",
+        "typeColor": "#93604b",
+        "readOnly": false,
+        "tooltip": {
+            "client": {
+                "id": 47713,
+                "name": "Abhishek Yadav",
+                "phone": "890-567-1234"
+            },
+            "patient": {
+                "id": 24916,
+                "name": "Rocky",
+                "species": "Canine (Dog)",
+                "breed": "Indian Pariah Dog",
+                "sex": "Female",
+                "dobAge": "1 Yr - 1 Mo"
+            },
+            "appointment": {
+                "createdBy": "Peggy Bartl",
+                "createdOn": "02 Jun 2022 11:30 AM",
+                "appointmentType": "Check Up",
+                "reason": "ECG",
+                "additionalComments": "ECG",
+                "assignedTo": "Ella Lopez",
+                "note": "Quae commodi eveniet",
+                "equipmentsRooms": "monitor",
+                "startDate": "30 Jun 2022 01:20 PM",
+                "endDate": "01 Jul 2022 01:40 PM"
+            }
+        }
+    },
+    {
+        "id": 3,
+        "staffId": 252,
+        "startDate": "Fri Jul 01 2022 11:35:00 GMT+0530 (India Standard Time)",
+        "endDate": "Fri Jul 01 2022 11:50:00 GMT+0530 (India Standard Time)",
+        "status": "completing",
+        "statusColor": "#a10e71",
+        "typeColor": "#1796b0",
+        "readOnly": false,
+        "tooltip": {
+            "client": {
+                "id": 47713,
+                "name": "Abhishek Yadav",
+                "phone": "890-567-1234"
+            },
+            "patient": {
+                "id": 24916,
+                "name": "Rocky",
+                "species": "Canine (Dog)",
+                "breed": "Indian Pariah Dog",
+                "sex": "Female",
+                "dobAge": "1 Yr - 1 Mo"
+            },
+            "appointment": {
+                "createdBy": "Peggy Bartl",
+                "createdOn": "02 Jun 2022 11:30 AM",
+                "appointmentType": "Check Up",
+                "reason": "ECG",
+                "additionalComments": "ECG",
+                "assignedTo": "Ella Lopez",
+                "note": "Quae commodi eveniet",
+                "equipmentsRooms": "monitor",
+                "startDate": "01 Jul 2022 01:20 PM",
+                "endDate": "01 Jul 2022 01:40 PM"
+            }
+        }
+    },
+    {
+        "id": 2,
+        "staffId": 251,
+        "startDate": "Mon Jul 01 2022 13:20:00 GMT+0530 (India Standard Time)",
+        "endDate": "Mon Jul 01 2022 13:40:00 GMT+0530 (India Standard Time)",
+        "status": "Check Out",
+        "statusColor": "#e1d40f",
+        "type": "check up",
+        "typeColor": "#f75d1c",
+        "readOnly": false,
+        "tooltip": {
+            "client": {
+                "id": 47713,
+                "name": "Abhishek Yadav",
+                "phone": "890-567-1234"
+            },
+            "patient": {
+                "id": 24916,
+                "name": "Rocky",
+                "species": "Canine (Dog)",
+                "breed": "Indian Pariah Dog",
+                "sex": "Female",
+                "dobAge": "1 Yr - 1 Mo"
+            },
+            "appointment": {
+                "createdBy": "Peggy Bartl",
+                "createdOn": "02 Jun 2022 11:30 AM",
+                "appointmentType": "Check Up",
+                "reason": "ECG",
+                "additionalComments": "ECG",
+                "assignedTo": "Ella Lopez",
+                "note": "Quae commodi eveniet",
+                "equipmentsRooms": "monitor",
+                "startDate": "01 Jul 2022 01:20 PM",
+                "endDate": "01 Jul 2022 01:40 PM"
+            }
+        }
+    },
+    {
+        "id": 8,
+        "staffId": 253,
+        "startDate": "Mon Jul 01 2022 13:20:00 GMT+0530 (India Standard Time)",
+        "endDate": "Mon Jul 03 2022 14:00:00 GMT+0530 (India Standard Time)",
+        "status": "completing",
+        "statusColor": "#a10e71",
+        "typeColor": "#1796b0",
+        "readOnly": false,
+        "tooltip": {
+            "client": {
+                "id": 47713,
+                "name": "Abhishek Yadav",
+                "phone": "890-567-1234"
+            },
+            "patient": {
+                "id": 24916,
+                "name": "Rocky",
+                "species": "Canine (Dog)",
+                "breed": "Indian Pariah Dog",
+                "sex": "Female",
+                "dobAge": "1 Yr - 1 Mo"
+            },
+            "appointment": {
+                "createdBy": "Peggy Bartl",
+                "createdOn": "02 Jun 2022 11:30 AM",
+                "appointmentType": "Check Up",
+                "reason": "ECG",
+                "additionalComments": "ECG",
+                "assignedTo": "Ella Lopez",
+                "note": "Quae commodi eveniet",
+                "equipmentsRooms": "monitor",
+                "startDate": "01 Jul 2022 01:20 PM",
+                "endDate": "03 Jul 2022 01:40 PM"
+            }
+        }
+    },
+    {
+        "id": 10,
+        "staffId": 253,
+        "startDate": "Tue Jul 05 2022 13:35:00 GMT+0530 (India Standard Time)",
+        "endDate": "Tue Jul 05 2022 15:05:00 GMT+0530 (India Standard Time)",
+        "status": "completing",
+        "statusColor": "#a10e71",
+        "type": "Outpatient",
+        "typeColor": "#322ae9",
+        "readOnly": false,
+        "tooltip": {
+            "client": {
+                "id": 47713,
+                "name": "Abhishek Yadav",
+                "phone": "890-567-1234"
+            },
+            "patient": {
+                "id": 24916,
+                "name": "Rocky",
+                "species": "Canine (Dog)",
+                "breed": "Indian Pariah Dog",
+                "sex": "Female",
+                "dobAge": "1 Yr - 1 Mo"
+            },
+            "appointment": {
+                "createdBy": "Peggy Bartl",
+                "createdOn": "02 Jun 2022 11:30 AM",
+                "appointmentType": "Check Up",
+                "reason": "ECG",
+                "additionalComments": "ECG",
+                "assignedTo": "Ella Lopez",
+                "note": "Quae commodi eveniet",
+                "equipmentsRooms": "monitor",
+                "startDate": "05 Jul 2022 01:20 PM",
+                "endDate": "05 Jul 2022 01:40 PM"
+            }
+        }
+    },
+    {
+        "id": 9,
+        "staffId": 253,
+        "startDate": "Tue Jul 05 2022 13:35:00 GMT+0530 (India Standard Time)",
+        "endDate": "Tue Jul 05 2022 13:50:00 GMT+0530 (India Standard Time)",
+        "status": "completing",
+        "statusColor": "#a10e71",
+        "typeColor": "#1796b0",
+        "readOnly": false,
+        "tooltip": {
+            "client": {
+                "id": 47713,
+                "name": "Abhishek Yadav",
+                "phone": "890-567-1234"
+            },
+            "patient": {
+                "id": 24916,
+                "name": "Rocky",
+                "species": "Canine (Dog)",
+                "breed": "Indian Pariah Dog",
+                "sex": "Female",
+                "dobAge": "1 Yr - 1 Mo"
+            },
+            "appointment": {
+                "createdBy": "Peggy Bartl",
+                "createdOn": "02 Jun 2022 11:30 AM",
+                "appointmentType": "Check Up",
+                "reason": "ECG",
+                "additionalComments": "ECG",
+                "assignedTo": "Ella Lopez",
+                "note": "Quae commodi eveniet",
+                "equipmentsRooms": "monitor",
+                "startDate": "05 Jul 2022 01:20 PM",
+                "endDate": "05 Jul 2022 01:40 PM"
+            }
+        }
+    },
+    {
+        "id": 11,
+        "staffId": 253,
+        "startDate": "Wed Jul 06 2022 14:00:00 GMT+0530 (India Standard Time)",
+        "endDate": "Wed Jul 06 2022 14:25:00 GMT+0530 (India Standard Time)",
+        "status": "completing",
+        "statusColor": "#a10e71",
+        "typeColor": "#1796b0",
+        "readOnly": false,
+        "tooltip": {
+            "client": {
+                "id": 47713,
+                "name": "Abhishek Yadav",
+                "phone": "890-567-1234"
+            },
+            "patient": {
+                "id": 24916,
+                "name": "Rocky",
+                "species": "Canine (Dog)",
+                "breed": "Indian Pariah Dog",
+                "sex": "Female",
+                "dobAge": "1 Yr - 1 Mo"
+            },
+            "appointment": {
+                "createdBy": "Peggy Bartl",
+                "createdOn": "02 Jun 2022 11:30 AM",
+                "appointmentType": "Check Up",
+                "reason": "ECG",
+                "additionalComments": "ECG",
+                "assignedTo": "Ella Lopez",
+                "note": "Quae commodi eveniet",
+                "equipmentsRooms": "monitor",
+                "startDate": "06 Jul 2022 01:20 PM",
+                "endDate": "06 Jul 2022 01:40 PM"
+            }
+        }
+    },
+    {
+        "id": 12,
+        "staffId": 253,
+        "startDate": "Wed Jul 06 2022 14:25:00 GMT+0530 (India Standard Time)",
+        "endDate": "Wed Jul 06 2022 15:45:00 GMT+0530 (India Standard Time)",
+        "status": "completing",
+        "statusColor": "#a10e71",
+        "type": "Routine checkup",
+        "typeColor": "#272220",
+        "readOnly": false,
+        "tooltip": {
+            "client": {
+                "id": 47713,
+                "name": "Abhishek Yadav",
+                "phone": "890-567-1234"
+            },
+            "patient": {
+                "id": 24916,
+                "name": "Rocky",
+                "species": "Canine (Dog)",
+                "breed": "Indian Pariah Dog",
+                "sex": "Female",
+                "dobAge": "1 Yr - 1 Mo"
+            },
+            "appointment": {
+                "createdBy": "Peggy Bartl",
+                "createdOn": "02 Jun 2022 11:30 AM",
+                "appointmentType": "Check Up",
+                "reason": "ECG",
+                "additionalComments": "ECG",
+                "assignedTo": "Ella Lopez",
+                "note": "Quae commodi eveniet",
+                "equipmentsRooms": "monitor",
+                "startDate": "06 Jul 2022 01:20 PM",
+                "endDate": "06 Jul 2022 01:40 PM"
+            }
+        }
+    },
+    {
+        "id": 13,
+        "staffId": 253,
+        "startDate": "Mon Jul 25 2022 14:45:00 GMT+0530 (India Standard Time)",
+        "endDate": "Mon Jul 25 2022 15:20:00 GMT+0530 (India Standard Time)",
+        "status": "completing",
+        "statusColor": "#a10e71",
+        "typeColor": "#1796b0",
+        "readOnly": false,
+        "tooltip": {
+            "client": {
+                "id": 47713,
+                "name": "Abhishek Yadav",
+                "phone": "890-567-1234"
+            },
+            "patient": {
+                "id": 24916,
+                "name": "Rocky",
+                "species": "Canine (Dog)",
+                "breed": "Indian Pariah Dog",
+                "sex": "Female",
+                "dobAge": "1 Yr - 1 Mo"
+            },
+            "appointment": {
+                "createdBy": "Peggy Bartl",
+                "createdOn": "02 Jun 2022 11:30 AM",
+                "appointmentType": "Check Up",
+                "reason": "ECG",
+                "additionalComments": "ECG",
+                "assignedTo": "Ella Lopez",
+                "note": "Quae commodi eveniet",
+                "equipmentsRooms": "monitor",
+                "startDate": "25 Jul 2022 01:20 PM",
+                "endDate": "25 Jul 2022 01:40 PM"
+            }
+        }
+    },
+    {
+        "id": 5,
+        "staffId": 251,
+        "startDate": "Mon Jul 25 2022 16:20:00 GMT+0530 (India Standard Time)",
+        "endDate": "Mon Jul 25 2022 16:25:00 GMT+0530 (India Standard Time)",
+        "status": "completing",
+        "statusColor": "#a10e71",
+        "typeColor": "#1796b0",
+        "readOnly": false,
+        "tooltip": {
+            "client": {
+                "id": 47713,
+                "name": "Abhishek Yadav",
+                "phone": "890-567-1234"
+            },
+            "patient": {
+                "id": 24916,
+                "name": "Rocky",
+                "species": "Canine (Dog)",
+                "breed": "Indian Pariah Dog",
+                "sex": "Female",
+                "dobAge": "1 Yr - 1 Mo"
+            },
+            "appointment": {
+                "createdBy": "Peggy Bartl",
+                "createdOn": "02 Jun 2022 11:30 AM",
+                "appointmentType": "Check Up",
+                "reason": "ECG",
+                "additionalComments": "ECG",
+                "assignedTo": "Ella Lopez",
+                "note": "Quae commodi eveniet",
+                "equipmentsRooms": "monitor",
+                "startDate": "25 Jul 2022 01:20 PM",
+                "endDate": "25 Jul 2022 01:40 PM"
+            }
+        }
+    }
+]

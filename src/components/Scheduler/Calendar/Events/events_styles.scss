@@ -1,0 +1,29 @@
+.calendar-event {
+    $event_border_radius: 4px;
+    top: 0;
+    left: 0;
+    display: flex;
+    cursor: default;
+    color: #3b4468;
+    overflow: hidden;
+    position: absolute;
+    flex-direction: column;
+    border: 1px solid #fff;
+    border-radius: $event_border_radius;
+    transition: transform 0.5s ease-in-out, width 0.5s ease-in-out,
+        height 0.5s ease-in-out, opacity 0.2s ease-in-out;
+    .calendar-eventHead {
+        min-height: 25px;
+        border-top-left-radius: $event_border_radius - 1px;
+        border-top-right-radius: $event_border_radius - 1px;
+    }
+    .calendar-eventBody {
+        flex-grow: 1;
+        border-bottom-left-radius: $event_border_radius - 1px;
+        border-bottom-right-radius: $event_border_radius - 1px;
+    }
+    .calendar-eventHead,
+    .calendar-eventBody {
+        padding: 5px 10px;
+    }
+}

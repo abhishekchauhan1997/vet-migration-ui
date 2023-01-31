@@ -1,0 +1,10 @@
+.des_iconText {
+    display: flex;
+    align-items: center;
+    & > * {
+        margin-right: 10px;
+    }
+    :last-child {
+        margin-right: 0;
+    }
+}

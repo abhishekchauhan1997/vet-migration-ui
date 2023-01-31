@@ -1,0 +1,539 @@
+.form_container {
+    background: #fff;
+    height: calc(
+        100vh -
+            (
+                $header_mobile_height + $footer_height + $padding_top_height +
+                    $padding_bottom_height
+            )
+    );
+}
+.cpWidgetWrapper + .layoutWrapper .form_container {
+    height: calc(
+        100vh -
+            (
+                $header_mobile_height + $footer_height + $padding_top_height +
+                    $cp_widget_mobile_height + $padding_bottom_height
+            )
+    );
+}
+.cpWidgetClientWrapper + .layoutWrapper .form_container {
+    height: calc(
+        100vh -
+            (
+                $header_mobile_height + $footer_height + $padding_top_height +
+                    $cp_widget_client_mobile_height + $padding_bottom_height
+            )
+    );
+}
+.otcSaleWidgetWrapper + .layoutWrapper .form_container {
+    height: calc(
+        100vh -
+            (
+                $header_mobile_height + $footer_height + $padding_top_height +
+                    $otc_widget_mobile_height + $padding_bottom_height
+            )
+    );
+}
+
+@include sm() {
+    .form_container {
+        height: calc(
+            100vh -
+                (
+                    $header_tab_height + $footer_height + $padding_top_height +
+                        $padding_bottom_height
+                )
+        );
+    }
+    .cpWidgetWrapper + .layoutWrapper .form_container {
+        height: calc(
+            100vh -
+                (
+                    $header_tab_height + $footer_height + $padding_top_height +
+                        $cp_widget_tab_height + $padding_bottom_height
+                )
+        );
+    }
+    .cpWidgetClientWrapper + .layoutWrapper .form_container {
+        height: calc(
+            100vh -
+                (
+                    $header_tab_height + $footer_height + $padding_top_height +
+                        $cp_widget_client_tab_height + $padding_bottom_height
+                )
+        );
+    }
+    .otcSaleWidgetWrapper + .layoutWrapper .form_container {
+        height: calc(
+            100vh -
+                (
+                    $header_tab_height + $footer_height + $padding_top_height +
+                        $otc_widget_tab_height + $padding_bottom_height
+                )
+        );
+    }
+}
+
+@include xl() {
+    .form_container {
+        height: calc(
+            100vh -
+                (
+                    $header_desktop_height + $footer_height +
+                        $padding_top_height + $padding_bottom_height
+                )
+        );
+    }
+    .cpWidgetWrapper + .layoutWrapper .form_container {
+        height: calc(
+            100vh -
+                (
+                    $header_desktop_height + $footer_height +
+                        $padding_top_height + $cp_widget_desktop_height +
+                        $padding_bottom_height
+                )
+        );
+    }
+    .cpWidgetClientWrapper + .layoutWrapper .form_container {
+        height: calc(
+            100vh -
+                (
+                    $header_desktop_height + $footer_height +
+                        $padding_top_height + $cp_widget_client_desktop_height +
+                        $padding_bottom_height
+                )
+        );
+    }
+    .otcSaleWidgetWrapper + .layoutWrapper .form_container {
+        height: calc(
+            100vh -
+                (
+                    $header_desktop_height + $footer_height +
+                        $padding_top_height + $otc_widget_desktop_height +
+                        $padding_bottom_height
+                )
+        );
+    }
+}
+
+.grid_form_container {
+    overflow: auto;
+    height: calc(
+        100vh -
+            (
+                $header_mobile_height + $footer_height + $padding_top_height +
+                    $padding_bottom_height + 149px
+            )
+    );
+}
+
+.cpWidgetWrapper + .layoutWrapper .form_container .grid_form_container {
+    height: calc(
+        100vh -
+            (
+                $header_mobile_height + $footer_height + $padding_top_height +
+                    $cp_widget_mobile_height + $padding_bottom_height + 149px
+            )
+    );
+}
+.cpWidgetClientWrapper + .layoutWrapper .form_container .grid_form_container {
+    height: calc(
+        100vh -
+            (
+                $header_mobile_height + $footer_height + $padding_top_height +
+                    $cp_widget_client_mobile_height + $padding_bottom_height +
+                    149px
+            )
+    );
+}
+.otcSaleWidgetWrapper + .layoutWrapper .form_container .grid_form_container {
+    height: calc(
+        100vh -
+            (
+                $header_mobile_height + $footer_height + $padding_top_height +
+                    $otc_widget_mobile_height + $padding_bottom_height + 149px
+            )
+    );
+}
+
+@include mq(425px) {
+    .grid_form_container {
+        height: calc(
+            100vh -
+                (
+                    $header_tab_height + $footer_height + $padding_top_height +
+                        $padding_bottom_height + 71px
+                )
+        );
+    }
+    .cpWidgetWrapper + .layoutWrapper .form_container .grid_form_container {
+        height: calc(
+            100vh -
+                (
+                    $header_mobile_height + $footer_height + $padding_top_height +
+                        $cp_widget_mobile_height + $padding_bottom_height + 71px
+                )
+        );
+    }
+    .cpWidgetClientWrapper
+        + .layoutWrapper
+        .form_container
+        .grid_form_container {
+        height: calc(
+            100vh -
+                (
+                    $header_mobile_height + $footer_height + $padding_top_height +
+                        $cp_widget_client_mobile_height + $padding_bottom_height +
+                        71px
+                )
+        );
+    }
+    .otcSaleWidgetWrapper
+        + .layoutWrapper
+        .form_container
+        .grid_form_container {
+        height: calc(
+            100vh -
+                (
+                    $header_mobile_height + $footer_height + $padding_top_height +
+                        $otc_widget_mobile_height + $padding_bottom_height +
+                        71px
+                )
+        );
+    }
+}
+@include md() {
+    .grid_form_container {
+        height: calc(
+            100vh -
+                (
+                    $header_tab_height + $footer_height + $padding_top_height +
+                        $padding_bottom_height + 71px
+                )
+        );
+    }
+    .cpWidgetWrapper + .layoutWrapper .form_container .grid_form_container {
+        height: calc(
+            100vh -
+                (
+                    $header_tab_height + $footer_height + $padding_top_height +
+                        $cp_widget_tab_height + $padding_bottom_height + 71px
+                )
+        );
+    }
+    .cpWidgetClientWrapper
+        + .layoutWrapper
+        .form_container
+        .grid_form_container {
+        height: calc(
+            100vh -
+                (
+                    $header_tab_height + $footer_height + $padding_top_height +
+                        $cp_widget_client_tab_height + $padding_bottom_height +
+                        71px
+                )
+        );
+    }
+    .otcSaleWidgetWrapper
+        + .layoutWrapper
+        .form_container
+        .grid_form_container {
+        height: calc(
+            100vh -
+                (
+                    $header_tab_height + $footer_height + $padding_top_height +
+                        $otc_widget_tab_height + $padding_bottom_height + 71px
+                )
+        );
+    }
+}
+
+@include xl() {
+    .grid_form_container {
+        height: calc(
+            100vh -
+                (
+                    $header_desktop_height + $footer_height +
+                        $padding_top_height + $padding_bottom_height + 151px
+                )
+        );
+    }
+    .cpWidgetWrapper + .layoutWrapper .form_container .grid_form_container {
+        height: calc(
+            100vh -
+                (
+                    $header_desktop_height + $footer_height +
+                        $padding_top_height + $cp_widget_desktop_height +
+                        $padding_bottom_height + 63px
+                )
+        );
+    }
+    .cpWidgetWrapper
+        + .layoutWrapper
+        .form_container:has(> .form_footer)
+        .grid_form_container {
+        height: calc(
+            100vh -
+                (
+                    $header_desktop_height + $footer_height +
+                        $padding_top_height + $cp_widget_desktop_height +
+                        $padding_bottom_height + 111px
+                )
+        );
+    }
+    .cpWidgetClientWrapper
+        + .layoutWrapper
+        .form_container
+        .grid_form_container {
+        height: calc(
+            100vh -
+                (
+                    $header_desktop_height + $footer_height +
+                        $padding_top_height + $cp_widget_client_desktop_height +
+                        $padding_bottom_height + 111px
+                )
+        );
+    }
+    .otcSaleWidgetWrapper
+        + .layoutWrapper
+        .form_container
+        .grid_form_container {
+        height: calc(
+            100vh -
+                (
+                    $header_desktop_height + $footer_height +
+                        $padding_top_height + $otc_widget_desktop_height +
+                        $padding_bottom_height + 111px
+                )
+        );
+    }
+}
+
+.form {
+    padding: 20px;
+    @include lg() {
+        margin: 0 auto;
+        max-width: 1024px;
+    }
+}
+
+.form_header {
+    display: block;
+    text-align: center;
+    @include mq(425px) {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 600;
+    color: #3b4468 !important;
+    border: none !important;
+    border-bottom: 1px solid #e5e8f5 !important;
+    border-radius: 3px !important;
+    letter-spacing: 1px;
+    padding: 15px 20px !important;
+    .card_title {
+        margin-bottom: 10px;
+        @include mq(425px) {
+            margin-bottom: 0px;
+        }
+    }
+    .formHeader_cardBody {
+        display: grid;
+        text-align: center;
+        grid-row-gap: 10px;
+        @include mq(425px) {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            grid-column-gap: 10px;
+        }
+    }
+    .card_btn {
+        width: 100%;
+        @include mq(425px) {
+            min-width: 68px;
+        }
+    }
+}
+.form_sub_header {
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: 900;
+    color: #3b4468 !important;
+    border: none !important;
+    border-bottom: 1px solid #e5e8f5 !important;
+    border-radius: 3px !important;
+    letter-spacing: 1px;
+    width: 98%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.form_footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 15px 20px !important;
+    border: none !important;
+    border-top: 1px solid #e5e8f5 !important;
+    border-radius: 3px !important;
+}
+.formFooter_cardBody {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    grid-column-gap: 10px;
+}
+
+.form_input {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-row-gap: 10px;
+    align-items: self-start !important;
+    justify-content: center;
+    width: 100%;
+    padding: 8px 0px;
+    @include md() {
+        grid-template-columns: 40% 60% !important;
+        grid-row-gap: 0px !important;
+    }
+}
+.form_input_checkbox {
+    grid-template-columns: 80% 20% !important;
+    @include md() {
+        grid-template-columns: 40% 60% !important;
+    }
+}
+
+.form_input_btn {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 100%;
+    grid-row-gap: 10px;
+
+    @include lg() {
+        grid-template-columns: 80% 15%;
+        grid-column-gap: 20px;
+    }
+
+    @include xl() {
+        grid-template-columns: 82% 15%;
+        grid-column-gap: 20px;
+    }
+    @include xl() {
+        grid-template-columns: 82% 15%;
+    }
+}
+
+.form_input_width_small {
+    width: 70% !important;
+    @include md() {
+        width: 50% !important;
+    }
+    @include lg() {
+        width: 25% !important;
+    }
+}
+
+.form_table_item {
+    margin: 20px 0px;
+    @include md() {
+        grid-column: 1 / sapn 3;
+    }
+}
+
+.form_table_header {
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    border-bottom: 1px solid #e5e8f5 !important;
+    padding: 12px 8px !important;
+}
+.form_table_cell {
+    border-bottom: 1px solid #e5e8f5 !important;
+    padding: 4px 8px !important;
+    &.strikethroughCell {
+        opacity: 0.7;
+        position: relative;
+        &::after {
+            left: 0;
+            top: 50%;
+            content: "";
+            width: 100%;
+            height: 0.5px;
+            position: absolute;
+            transform: translateY(-50%);
+            background-color: #9da6c8;
+        }
+    }
+}
+.grid_layout {
+    @include md() {
+        grid-area: 3 / 2;
+    }
+}
+
+.checkbox_group {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    @include md() {
+        align-items: center;
+        flex-direction: row;
+    }
+}
+
+.form_button {
+    // caregiver btn css
+    width: 100%;
+    @include md() {
+        width: 30%;
+    }
+}
+.warning_helpertext {
+    color: rgb(245, 124, 0) !important;
+}
+
+.error_helpertext {
+    color: rgb(211, 47, 47) !important;
+}
+
+.success_helpertext {
+    color: rgb(56, 142, 60) !important;
+}
+.warning_inputborder {
+    border: 1px solid rgb(245, 124, 0) !important;
+}
+
+.error_inputborder {
+    border: rgb(211, 47, 47) !important;
+}
+
+.success_inputborder {
+    border: rgb(56, 142, 60) !important;
+}
+
+// .form_fileInputBtn {
+//     height: 40px;
+// }
+
+.form_fileInputIcon {
+    color: #fff !important;
+}
+
+.form_dateInput {
+    height: 89px;
+    @include md() {
+        height: 56px;
+    }
+}
+input:-internal-autofill-selected {
+    appearance: inherit;
+    background-image: none !important;
+    background: rgb(245, 246, 250) !important;
+    color: #3b4468 !important;
+}

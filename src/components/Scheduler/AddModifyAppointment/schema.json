@@ -1,0 +1,41 @@
+{
+    "search_client_patient": {
+        "xs": 12
+    },
+    "appointment_type": {
+        "xs": 12
+    },
+    "reason_for_visit": {
+        "xs": 12
+    },
+    "additional_comments": {
+        "xs": 12
+    },
+    "select_staffs": {
+        "xs": 12
+    },
+    "select_equipment_room": {
+        "xs": 12
+    },
+    "start_time": {
+        "xs": 12
+    },
+    "end_time": {
+        "xs": 12
+    },
+    "drop_off_date_time": {
+        "xs": 12
+    },
+    "recurring_appointment": {
+        "xs": 12
+    },
+    "email_to_client": {
+        "xs": 12
+    },
+    "sms_to_client": {
+        "xs": 12
+    },
+    "client_requirements": {
+        "xs": 12
+    }
+}

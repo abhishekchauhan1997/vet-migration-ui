@@ -1,0 +1,42 @@
+.month-view {
+    overflow-x: auto;
+    .calendar-content__table {
+        .calendar-content__row {
+            &:first-child .calendar-content__cell {
+                border-top: 1px solid #e0e0e0;
+            }
+        }
+        .calendar-content__cell {
+            vertical-align: initial;
+            border-right: 1px solid #e0e0e0;
+            &:first-child {
+                border-left: 1px solid #e0e0e0;
+            }
+        }
+        .calendar-content__body .calendar-content__cell {
+            border-bottom: 1px solid #e0e0e0;
+        }
+    }
+
+    .month-head {
+        font-size: 12px;
+        font-weight: 600;
+        min-height: 20px;
+        line-height: 20px;
+        text-align: right;
+        padding-right: 10px;
+        color: rgba(0, 0, 0, 0.66);
+    }
+    .today {
+        background-color: #fff3a1;
+    }
+    .prev-month,
+    .next-month {
+        .month-head {
+            color: rgba(0, 0, 0, 0.54);
+        }
+    }
+    .month-body {
+        min-height: 65px;
+    }
+}

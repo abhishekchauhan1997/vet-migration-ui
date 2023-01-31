@@ -1,0 +1,9 @@
+@import "styles/_mixin.scss";
+
+.znlabsSetup_header {
+    @include mq(400px) {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}

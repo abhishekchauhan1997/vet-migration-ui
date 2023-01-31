@@ -1,0 +1,12 @@
+.timeScale {
+    min-width: 65px;
+    .hour-tick {
+        padding: 0 5px;
+        position: relative;
+        .tick {
+            min-height: 44px;
+            text-align: center;
+            transition: min-height 0.5s ease-in-out;
+        }
+    }
+}

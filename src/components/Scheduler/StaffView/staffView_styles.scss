@@ -1,0 +1,10 @@
+.calendar-eventsGroup {
+    .event-group {
+        display: flex;
+        .event-groupColumn {
+            flex-grow: 1;
+            position: relative;
+            
+        }
+    }
+}

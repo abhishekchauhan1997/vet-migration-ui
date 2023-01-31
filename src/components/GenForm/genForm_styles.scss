@@ -1,0 +1,298 @@
+.form_container {
+    background: #fff;
+    height: calc(
+        100vh -
+            (
+                $header_mobile_height + $footer_height + $padding_top_height +
+                    $padding_bottom_height
+            )
+    );
+}
+.cpWidgetWrapper + .layoutWrapper .form_container {
+    height: calc(
+        100vh -
+            (
+                $header_mobile_height + $footer_height + $padding_top_height +
+                    $cp_widget_mobile_height + $padding_bottom_height
+            )
+    );
+}
+.cpWidgetClientWrapper + .layoutWrapper .form_container {
+    height: calc(
+        100vh -
+            (
+                $header_mobile_height + $footer_height + $padding_top_height +
+                    $cp_widget_client_mobile_height + $padding_bottom_height
+            )
+    );
+}
+.otcSaleWidgetWrapper + .layoutWrapper .form_container {
+    height: calc(
+        100vh -
+            (
+                $header_mobile_height + $footer_height + $padding_top_height +
+                    $otc_widget_mobile_height + $padding_bottom_height
+            )
+    );
+}
+
+@include sm() {
+    .form_container {
+        height: calc(
+            100vh -
+                (
+                    $header_tab_height + $footer_height + $padding_top_height +
+                        $padding_bottom_height
+                )
+        );
+    }
+    .cpWidgetWrapper + .layoutWrapper .form_container {
+        height: calc(
+            100vh -
+                (
+                    $header_tab_height + $footer_height + $padding_top_height +
+                        $cp_widget_tab_height + $padding_bottom_height
+                )
+        );
+    }
+    .cpWidgetClientWrapper + .layoutWrapper .form_container {
+        height: calc(
+            100vh -
+                (
+                    $header_tab_height + $footer_height + $padding_top_height +
+                        $cp_widget_client_tab_height + $padding_bottom_height
+                )
+        );
+    }
+    .otcSaleWidgetWrapper + .layoutWrapper .form_container {
+        height: calc(
+            100vh -
+                (
+                    $header_tab_height + $footer_height + $padding_top_height +
+                        $otc_widget_tab_height + $padding_bottom_height
+                )
+        );
+    }
+}
+
+@include xl() {
+    .form_container {
+        height: calc(
+            100vh -
+                (
+                    $header_desktop_height + $footer_height +
+                        $padding_top_height + $padding_bottom_height
+                )
+        );
+    }
+    .cpWidgetWrapper + .layoutWrapper .form_container {
+        height: calc(
+            100vh -
+                (
+                    $header_desktop_height + $footer_height +
+                        $padding_top_height + $cp_widget_desktop_height +
+                        $padding_bottom_height
+                )
+        );
+    }
+    .cpWidgetClientWrapper + .layoutWrapper .form_container {
+        height: calc(
+            100vh -
+                (
+                    $header_desktop_height + $footer_height +
+                        $padding_top_height + $cp_widget_client_desktop_height +
+                        $padding_bottom_height
+                )
+        );
+    }
+    .otcSaleWidgetWrapper + .layoutWrapper .form_container {
+        height: calc(
+            100vh -
+                (
+                    $header_desktop_height + $footer_height +
+                        $padding_top_height + $otc_widget_desktop_height +
+                        $padding_bottom_height
+                )
+        );
+    }
+}
+
+.grid_form_container {
+    overflow: auto;
+    height: calc(
+        100vh -
+            (
+                $header_mobile_height + $footer_height + $padding_top_height +
+                    $padding_bottom_height + 149px
+            )
+    );
+}
+
+.cpWidgetWrapper + .layoutWrapper .form_container .grid_form_container {
+    height: calc(
+        100vh -
+            (
+                $header_mobile_height + $footer_height + $padding_top_height +
+                    $cp_widget_mobile_height + $padding_bottom_height + 149px
+            )
+    );
+}
+.cpWidgetClientWrapper + .layoutWrapper .form_container .grid_form_container {
+    height: calc(
+        100vh -
+            (
+                $header_mobile_height + $footer_height + $padding_top_height +
+                    $cp_widget_client_mobile_height + $padding_bottom_height +
+                    149px
+            )
+    );
+}
+.otcSaleWidgetWrapper + .layoutWrapper .form_container .grid_form_container {
+    height: calc(
+        100vh -
+            (
+                $header_mobile_height + $footer_height + $padding_top_height +
+                    $otc_widget_mobile_height + $padding_bottom_height + 149px
+            )
+    );
+}
+
+@include mq(425px) {
+    .grid_form_container {
+        height: calc(
+            100vh -
+                (
+                    $header_tab_height + $footer_height + $padding_top_height +
+                        $padding_bottom_height + 71px
+                )
+        );
+    }
+    .cpWidgetWrapper + .layoutWrapper .form_container .grid_form_container {
+        height: calc(
+            100vh -
+                (
+                    $header_mobile_height + $footer_height + $padding_top_height +
+                        $cp_widget_mobile_height + $padding_bottom_height + 71px
+                )
+        );
+    }
+    .cpWidgetClientWrapper
+        + .layoutWrapper
+        .form_container
+        .grid_form_container {
+        height: calc(
+            100vh -
+                (
+                    $header_mobile_height + $footer_height + $padding_top_height +
+                        $cp_widget_client_mobile_height + $padding_bottom_height +
+                        71px
+                )
+        );
+    }
+    .otcSaleWidgetWrapper
+        + .layoutWrapper
+        .form_container
+        .grid_form_container {
+        height: calc(
+            100vh -
+                (
+                    $header_mobile_height + $footer_height + $padding_top_height +
+                        $otc_widget_mobile_height + $padding_bottom_height +
+                        71px
+                )
+        );
+    }
+}
+@include md() {
+    .grid_form_container {
+        height: calc(
+            100vh -
+                (
+                    $header_tab_height + $footer_height + $padding_top_height +
+                        $padding_bottom_height + 71px
+                )
+        );
+    }
+    .cpWidgetWrapper + .layoutWrapper .form_container .grid_form_container {
+        height: calc(
+            100vh -
+                (
+                    $header_tab_height + $footer_height + $padding_top_height +
+                        $cp_widget_tab_height + $padding_bottom_height + 71px
+                )
+        );
+    }
+    .cpWidgetClientWrapper
+        + .layoutWrapper
+        .form_container
+        .grid_form_container {
+        height: calc(
+            100vh -
+                (
+                    $header_tab_height + $footer_height + $padding_top_height +
+                        $cp_widget_client_tab_height + $padding_bottom_height +
+                        71px
+                )
+        );
+    }
+    .otcSaleWidgetWrapper
+        + .layoutWrapper
+        .form_container
+        .grid_form_container {
+        height: calc(
+            100vh -
+                (
+                    $header_tab_height + $footer_height + $padding_top_height +
+                        $otc_widget_tab_height + $padding_bottom_height + 71px
+                )
+        );
+    }
+}
+
+@include xl() {
+    .grid_form_container {
+        height: calc(
+            100vh -
+                (
+                    $header_desktop_height + $footer_height +
+                        $padding_top_height + $padding_bottom_height + 71px
+                )
+        );
+    }
+    .cpWidgetWrapper + .layoutWrapper .form_container .grid_form_container {
+        height: calc(
+            100vh -
+                (
+                    $header_desktop_height + $footer_height +
+                        $padding_top_height + $cp_widget_desktop_height +
+                        $padding_bottom_height + 71px
+                )
+        );
+    }
+    .cpWidgetClientWrapper
+        + .layoutWrapper
+        .form_container
+        .grid_form_container {
+        height: calc(
+            100vh -
+                (
+                    $header_desktop_height + $footer_height +
+                        $padding_top_height + $cp_widget_client_desktop_height +
+                        $padding_bottom_height + 71px
+                )
+        );
+    }
+    .otcSaleWidgetWrapper
+        + .layoutWrapper
+        .form_container
+        .grid_form_container {
+        height: calc(
+            100vh -
+                (
+                    $header_desktop_height + $footer_height +
+                        $padding_top_height + $otc_widget_desktop_height +
+                        $padding_bottom_height + 71px
+                )
+        );
+    }
+}
